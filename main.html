@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менеджер паролей</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Менеджер паролей</h1>
+        <div class="form-container">
+            <form id="passwordForm">
+                <input type="text" id="login" placeholder="Логин" required>
+                <input type="password" id="password" placeholder="Пароль" required>
+                <input type="url" id="url" placeholder="URL" required>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+        <div class="password-list">
+            <h2>Сохраненные пароли</h2>
+            <ul id="passwords"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
